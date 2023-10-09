@@ -1,0 +1,196 @@
+:root {
+  --primary-color: #2a2e4a;
+  --debut-color: #839f83;
+  --fearless-color: #f6cc90;
+  --speaknow-color: #c7abcb;
+  --red-color: #813341;
+  --1989-color: #98bac8;
+  --rep-color: #2a2628;
+  --lover-color: #d48da8;
+  --folklore-color: #cfbfb1;
+  --evermore-color: #b89c7d;
+  --midnights-color: #66b6c9;
+}
+
+body {
+  background-color: var(--primary-color) !important;
+}
+
+h1,
+h2,
+p,
+h3,
+li {
+  font-family: "Poppins", sans-serif;
+}
+.question {
+  color: var(--debut-color);
+  font-weight: 600;
+}
+
+.img-responsive {
+  display: block;
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.banner img {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text {
+  color: var(--folklore-color);
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: -50px;
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+  width: 100%;
+}
+.text .val {
+  font-size: 24px;
+}
+.text .type-time {
+  font-size: 18px;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.82);
+  max-width: 80%;
+  display: block;
+  margin: 20px auto;
+  opacity: 50%;
+  color: var();
+  border: 2px solid #0f1121;
+  border-radius: 2px;
+}
+
+.itinerary {
+  color: var(--speaknow-color);
+}
+
+.set-list {
+  color: var(--fearless-color);
+}
+
+.dress {
+  color: var(--rep-color);
+}
+
+.boring {
+  color: var(--lover-color);
+}
+
+.card h2 {
+  padding-top: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 12px;
+}
+
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
+
+.info-card {
+  background-color: var(--debut-color);
+  opacity: 60%;
+  margin-top: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.info-card h2 {
+  color: var(--red-color);
+}
+
+.right-column {
+  text-align: right;
+  padding-right: 25px;
+  list-style: none;
+  line-height: 2;
+}
+
+.left-column {
+  list-style: none;
+  line-height: 2;
+}
+
+.lover {
+  color: var(--lover-color);
+}
+
+.fearless {
+  color: var(--fearless-color);
+}
+
+.folklore {
+  color: var(--folklore-color);
+}
+
+.reputation {
+  color: var(--rep-color);
+}
+
+.speak-now {
+  color: var(--speaknow-color);
+}
+
+.red {
+  color: var(--red-color);
+}
+
+.evermore {
+  color: var(--evermore-color);
+}
+
+.nineteen {
+  color: var(--1989-color);
+}
+
+.midnights {
+  color: var(--midnights-color);
+}
+
+li {
+  font-weight: 300;
+  color: var(--primary-color);
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  margin: 20px auto;
+  color: var(--speaknow-color);
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--lover-color);
+}
+
+@media (max-width: 900px) {
+  .grid-2-columns {
+    grid-template-columns: 1fr;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .clock-item {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .clock-item {
+    margin: 0px 30px 30px 30px;
+  }
+}
