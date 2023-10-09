@@ -3,17 +3,176 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="src/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&amp;family=Bad+Script&amp;family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Quicksand:wght@300;400;500&amp;family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&amp;display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Taylor Swift Countdown</title>
   </head>
   <body>
     <div class="container">
-      <div class="countdownClock">
-        <span id="days"></span>
-        <span id="hours"></span>
-        <span id="minutes"></span>
-        <span id="seconds"></span>
-        <div id="readyforit"></div>
+      <div class="banner">
+        <img src="images/taylor-swift.jpg" class="img-responsive" />
       </div>
+      <div class="main-container">
+        <h1 class="text-center question">Are you ready for it?</h1>
+        <div class="countdownClock"></div>
+        <div>
+          <h2 class="text-center itinerary">Itinerary</h2>
+          <p class="text-center">TBC</p>
+        </div>
+      </div>
+      <div class="card">
+        <div>
+          <h2 class="text-center set-list">Possible Set List</h2>
+          <div class="grid grid-2-columns">
+            <ul class="left-column">
+              <li class="lover">
+                Miss Americana & The Heartbreak Prince (shortened)
+              </li>
+              <hr />
+              <li class="lover">Cruel Summer</li>
+              <hr />
+              <li class="lover">The Man</li>
+              <hr />
+              <li class="lover">You Need to Calm Down (shortened)</li>
+              <hr />
+              <li class="lover">Lover</li>
+              <hr />
+              <li class="lover">The Archer</li>
+              <hr />
+              <li class="fearless">Fearless (shortened)</li>
+              <hr />
+              <li class="fearless">You Belong With Me</li>
+              <hr />
+              <li class="fearless">Love Story</li>
+              <hr />
+              <li class="evermore">tis the Damn Season</li>
+              <hr />
+              <li class="evermore">Willow</li>
+              <hr />
+              <li class="evermore">Marjorie (shortened)</li>
+              <hr />
+              <li class="evermore">Champagne Problems</li>
+              <hr />
+              <li class="evermore">Tolerate it</li>
+              <hr />
+              <li class="reputation">...Ready For It?</li>
+              <hr />
+              <li class="reputation">Delicate</li>
+              <hr />
+              <li class="reputation">Don't Blame Me</li>
+              <hr />
+              <li class="reputation">Look What You MAde me Do</li>
+              <hr />
+              <li class="speak-now">Enchanted</li>
+              <hr />
+              <li class="red">22</li>
+              <hr />
+              <li class="red">We Are Never Ever Getting Back Together</li>
+            </ul>
+            <ul class="right-column">
+              <hr />
+              <li class="red">I knew You Were Trouble</li>
+              <hr />
+              <li class="red">All Too Well</li>
+              <hr />
+              <li class="folklore">Invisible String</li>
+              <hr />
+              <li class="folklore">betty</li>
+              <hr />
+              <li class="folklore">The Last Great American Dynasty</li>
+              <hr />
+              <li class="folklore">august</li>
+              <hr />
+              <li class="folklore">Illicit Affairs (shortened)</li>
+              <hr />
+              <li class="folklore">My Tears Ricochet</li>
+              <hr />
+              <li class="folklore">Cardigan</li>
+              <hr />
+              <li class="nineteen">Style</li>
+              <hr />
+              <li class="nineteen">Blank Space</li>
+              <hr />
+              <li class="nineteen">Shake It Off</li>
+              <hr />
+              <li class="nineteen">Wildest Dreams (shortened)</li>
+              <hr />
+              <li class="nineteen">Bad Blood (shortened)</li>
+              <hr />
+              <li>Surprise Acoustic Song</li>
+              <hr />
+              <li>Surprise Acoustic Song</li>
+              <hr />
+              <li class="midnights">Lavendar Haze</li>
+              <hr />
+              <li class="midnights">Anti-Hero</li>
+              <hr />
+              <li class="midnights">Midnight Rain</li>
+              <hr />
+              <li class="midnights">Vigilante Shit</li>
+              <hr />
+              <li class="midnights">Bejeweled</li>
+              <hr />
+              <li class="midnights">Mastermind</li>
+              <hr />
+              <li class="midnights">Karma</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <h2 class="text-center dress">Dress Code</h2>
+        <p class="text-center">SEQUINS!!</p>
+      </div>
+      <div class="card">
+        <h2 class="text-center boring">BORING STUFF</h2>
+      </div>
+      <section class="grid grid-2-columns">
+        <div class="info-card">
+          <h2 class="text-center">Packing List</h2>
+          <ul class="left-column">
+            <li class="text-center">Transparent Water Bottle</li>
+            <li>Friendship Bracelets</li>
+            <li>PHONE</li>
+            <li>Backup phone charger</li>
+            <li>Throat sweets</li>
+            <li>Purse</li>
+          </ul>
+        </div>
+        <div class="info-card">
+          <h2 class="text-center">Prohibited Items</h2>
+          <ul class="right-column">
+            <li>Bags Larger Than A4 Paper</li>
+            <li>Large Umbrellas</li>
+            <li>Aluminium or Glass Containers</li>
+            <li>Transparent Bottles over 500ml</li>
+            <li>Alcohol</li>
+            <li>Food & Drink</li>
+            <li>Selfie Sticks</li>
+            <li>Weapons & Tools(sorry guys)</li>
+            <li>Flares, Lasers or Smoke Devices</li>
+            <li>Large Cameras</li>
+            <li>Drones</li>
+            <li>Musical Instruments</li>
+          </ul>
+        </div>
+      </section>
     </div>
     <script src="src/index.js"></script>
   </body>
