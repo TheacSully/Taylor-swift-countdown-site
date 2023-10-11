@@ -23,6 +23,7 @@ h3,
 li {
   font-family: "Poppins", sans-serif;
 }
+
 .question {
   color: var(--debut-color);
   font-weight: 600;
@@ -59,6 +60,13 @@ li {
 }
 .text .type-time {
   font-size: 18px;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  max-width: 600px;
+  margin-bottom: -40px;
 }
 
 .card {
