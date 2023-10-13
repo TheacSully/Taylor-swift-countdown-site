@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #2a2e4a;
+  --primary-color: #2a2d4a;
   --debut-color: #839f83;
   --fearless-color: #f6cc90;
   --speaknow-color: #c7abcb;
@@ -13,6 +13,8 @@
 }
 
 body {
+  display: block;
+  margin: 0 auto;
   background-color: var(--primary-color) !important;
 }
 
@@ -31,17 +33,12 @@ li {
 
 .img-responsive {
   display: block;
+  margin: 0 auto;
   width: 100%;
 }
 
 .text-center {
   text-align: center;
-}
-
-.banner img {
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .text {
@@ -187,18 +184,25 @@ footer a {
   color: var(--lover-color);
 }
 
-@media (max-width: 900px) {
+@media (max-width: 560px) {
+  .banner {
+    max-width: 100%;
+  }
   .grid-2-columns {
     grid-template-columns: 1fr;
   }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .clock-item {
-    margin-bottom: 30px;
+  .container {
+    max-width: 80%;
   }
-}
-@media (max-width: 767px) {
-  .clock-item {
-    margin: 0px 30px 30px 30px;
+  iframe {
+    max-width: 80%;
+  }
+  .left-column,
+  .right-column {
+    font-size: 12px;
+    line-height: 1;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 0px;
   }
 }
