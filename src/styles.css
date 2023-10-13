@@ -37,6 +37,57 @@ li {
   width: 100%;
 }
 
+.countdown-clock {
+  text-align: center;
+  padding: 15px;
+  font-size: 68px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+#days {
+  background-image: linear-gradient(45deg, #839f83, #66b6c9);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+#hours {
+  background-image: linear-gradient(45deg, #c7abcb, #2a2628);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+#minutes {
+  background-image: linear-gradient(45deg, #98bac8, #813341);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+#seconds {
+  background-image: linear-gradient(45deg, #d48da8, #cfbfb1);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+#readyforit {
+  background-image: linear-gradient(
+    45deg,
+    #839f83,
+    #66b6c9,
+    #c7abcb,
+    #2a2628,
+    #98bac8,
+    #813341,
+    #d48da8,
+    #cfbfb1
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
 .text-center {
   text-align: center;
 }
