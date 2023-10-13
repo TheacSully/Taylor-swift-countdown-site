@@ -136,8 +136,12 @@ iframe {
   color: var(--fearless-color);
 }
 
-.dress {
+.dresscode {
+  font-weight: 800;
+  font-size: 30px;
   color: var(--rep-color);
+  background-image: url("../images/sequins.jpg");
+  opacity: 100;
 }
 
 .boring {
