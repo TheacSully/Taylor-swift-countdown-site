@@ -16,6 +16,7 @@ var x = setInterval(function () {
     document.getElementById("hours").style.display = "none";
     document.getElementById("minutes").style.display = "none";
     document.getElementById("seconds").style.display = "none";
-    document.getElementById("readyforit").innerHTML = "ARE YOU READY FOR IT?";
+    document.getElementById("readyforit").innerHTML =
+      "IT FEELS LIKE A PERFECT NIGHT";
   }
 }, 1000);
