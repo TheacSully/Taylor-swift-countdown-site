@@ -25,9 +25,7 @@
   </head>
   <body>
     <div class="nav-bar">
-      <nav
-        class="navbar fixed-top bg-body-tertiary navbar-expand-lg navbar-light bg-light"
-      >
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
         <button
           class="navbar-toggler"
           type="button"
@@ -39,20 +37,47 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="navbar-collapse collapse show" id="navbarNav">
+        <div class="navbar-collapse collapse expand" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a aria-current="page" class="nav-link active" href="/"></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about" title="">About Me</a>
+              <a aria-current="page" class="nav-link active" href="#top">
+                BACK TO TOP
+              </a>
+            </li>
+            <li class="nav-item">
+              <a aria-current="page" class="nav-link active" href="#itinerary">
+                Itinerary
+              </a>
+            </li>
+            <li class="nav-item">
+              <a aria-current="page" class="nav-link active" href="#playlist">
+                Playlist
+              </a>
+            </li>
+            <li class="nav-item">
+              <a aria-current="page" class="nav-link active" href="#setlist">
+                Setlist
+              </a>
+            </li>
+            <li class="nav-item">
+              <a aria-current="page" class="nav-link active" href="#dresscode">
+                Dress Code
+              </a>
+            </li>
+            <li class="nav-item">
+              <a aria-current="page" class="nav-link active" href="#boring">
+                BORING STUFF
+              </a>
             </li>
           </ul>
         </div>
       </nav>
     </div>
     <div class="banner">
-      <img src="images/TS HERO.jpg" class="img-responsive" />
+      <img src="images/TS HERO.jpg" class="img-responsive" id="top" />
     </div>
     <div class="container">
       <div class="main-container">
@@ -66,23 +91,25 @@
         </div>
         <div>
           <div class="card">
-            <h2 class="text-center itinerary">Itinerary</h2>
+            <h2 class="text-center itinerary" id="itinerary">Itinerary</h2>
             <p class="text-center">TBC</p>
           </div>
         </div>
       </div>
-
       <iframe
         style="border-radius: 12px"
-        src="https://open.spotify.com/embed/playlist/4jdkImwMwiK7KMaJSY9JyT?utm_source=generator"
+        id="playlist"
+        src="https://open.spotify.com/embed/playlist/7eOdNFpyYcgoklmA6JWamx?utm_source=generator"
+        width="80%"
+        height="352"
+        frameborder="0"
+        allowfullscreen=""
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         loading="lazy"
-        height="200px"
-        width="560px"
       ></iframe>
       <div class="card">
         <div>
-          <h2 class="text-center set-list">Possible Set List</h2>
+          <h2 class="text-center set-list" id="setlist">Possible Set List</h2>
           <div class="grid grid-2-columns">
             <ul class="left-column">
               <hr />
@@ -181,12 +208,12 @@
           </div>
         </div>
       </div>
-      <div class="card dresscode">
+      <div class="card dresscode" id="dresscode">
         <h2 class="text-center dress">Dress Code</h2>
         <p class="text-center dress">SEQUINS!!</p>
       </div>
       <div class="card">
-        <h2 class="text-center boring">BORING STUFF</h2>
+        <h2 class="text-center boring" id="boring">BORING STUFF</h2>
       </div>
       <section class="grid grid-2-columns">
         <div class="info-card">

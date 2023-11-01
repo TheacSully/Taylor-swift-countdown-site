@@ -26,6 +26,29 @@ li {
   font-family: "Poppins", sans-serif;
 }
 
+.nav-bar {
+  background-color: var(--primary-color);
+}
+
+button.navbar-toggler {
+  background-color: #383c62;
+  color: #383c62;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.nav-bar ul {
+  margin-left: 10px;
+  color: #cfbfb1a1;
+  padding-left: 5px;
+  border-radius: 5px;
+  font-weight: 200;
+}
+
+.banner {
+  margin-top: 50px;
+}
+
 .question {
   color: var(--debut-color);
   font-weight: 600;
@@ -114,7 +137,6 @@ iframe {
   display: block;
   margin: 0 auto;
   max-width: 600px;
-  margin-bottom: -40px;
 }
 
 .card {
